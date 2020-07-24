@@ -1,0 +1,13 @@
+
+> install-peers@1.0.3 postinstall C:\Users\losso\myportfolio\node_modules\install-peers
+> node install.js
+
++ typescript@3.9.3
++ install-peers@1.0.3
+added 5 packages from 2 contributors and audited 1697 packages in 15.299s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+found 1 low severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
