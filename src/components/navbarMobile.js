@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import {AppBar, Toolbar, ListItem, IconButton, ListItemText, ListItemIcon, Avatar, makeStyles, Divider, List, Typography, Box, Tabs, Tab, Paper} from "@material-ui/core";
-import { ArrowBack, Menu, AssignmentInd, Home, Apps, ContactMail, Clear} from  "@material-ui/icons";
+import {AppBar, Toolbar, ListItem, IconButton, ListItemText, ListItemIcon, Avatar, makeStyles, List, Box} from "@material-ui/core";
+import {Menu, AssignmentInd, Home, Apps, ContactMail} from  "@material-ui/icons";
 import MobileRightMenuSlider from "@material-ui/core/Drawer"
 import avatar from "../Avatar.png";
 import {Link} from 'react-router-dom';
@@ -44,7 +44,7 @@ const menuItems = [
     },
     {
         listIcon: <ContactMail />,
-        listText: "Contacts",
+        listText: "Contact",
         listPath: "/contacts"
     }
 ];

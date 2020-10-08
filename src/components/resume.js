@@ -1,6 +1,6 @@
 import React from 'react';
-import { makeStyles, withStyles } from "@material-ui/core/styles";
-import {Typography, Box, Button, Link } from "@material-ui/core"
+import { makeStyles } from "@material-ui/core/styles";
+import {Typography, Box  } from "@material-ui/core"
 import NavbarMobile from './navbarMobile';
 
 
@@ -115,7 +115,7 @@ const Resume = () => {
                     Work Experience
                 </Typography>
                 <Typography variant="h5" align="center" className={classes.heading}>
-                    <a target="_blank" href="https://drive.google.com/file/d/0B0JiynH-uCcGQlFZRDhVZWw3bmZOb1JJY2RjcEs0NGJrN1BZ/view?usp=sharing">
+                    <a target="_blank" href="https://drive.google.com/file/d/0B0JiynH-uCcGQlFZRDhVZWw3bmZOb1JJY2RjcEs0NGJrN1BZ/view?usp=sharing" rel="noopener noreferrer">
                     Copy of Resume
                     </a>
                 </Typography>

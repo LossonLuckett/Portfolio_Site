@@ -1,12 +1,11 @@
 import React from 'react'
 import { Box, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from "@material-ui/core";
-import {  makeStyles, createMuiTheme, ThemeProvider, withStyles } from'@material-ui/core/styles';
+import {  makeStyles, withStyles } from'@material-ui/core/styles';
 import Navbar from './navbarMobile';
-import Avatar from '../Avatar.png';
 import PythonPic from '../pythonlogomaster.png';
 import ReactPic from '../react-material-ui-main.jpg';
 import CPic from '../cs_logo.png';
-import { green, purple } from '@material-ui/core/colors';
+
 
 
 const useStyles= makeStyles({
@@ -61,10 +60,10 @@ const Portfolio = () => {
                    </Typography>
                </CardContent>
                <CardActions>
-                   <ColorButton size="small" color="primary" target="_blank" href="https://github.com/LossonLuckett/FaceAuth/upload">
+                   <ColorButton size="small" color="primary" target="_blank" href="https://github.com/LossonLuckett/FaceAuth/">
                        View Source
                    </ColorButton>
-                   <ColorButton size="small" color="primary">
+                   <ColorButton size="small" color="primary" disabled>
                        Demo
                    </ColorButton>
                </CardActions>     

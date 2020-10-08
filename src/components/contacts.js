@@ -1,7 +1,6 @@
 import React from 'react';
 import {makeStyles, withStyles} from "@material-ui/core/styles";
-import { TextField, Typograpy, Button, Grid, Box, Typography, } from "@material-ui/core";
-import SendIcon from "@material-ui/icons/Send";
+import { TextField, Grid, Box, Typography, } from "@material-ui/core";
 import Navbar from "./navbarMobile";
 
 
